@@ -1,0 +1,25 @@
+Containr is Isolated Enviroment  for running Application
+Virtual Machine is Abstraction of a Machine(Physical hardware)
+
+HyperVisor are Virtual , VMware , Hyper-v (Windows Only)
+
+Virtual Machine Problem 
+ |
+ v 
+CPU, Memory, Hard Drive for Separate
+Each need a full blown OS
+SLow to Start
+Resource intensive
+
+
+Container
+ |
+ v
+Allow running multiple apps in isolation
+Are lightweight
+Use OS of the host
+Start Quickly
+
+
+Commands for Docker
+1 -> docker version
